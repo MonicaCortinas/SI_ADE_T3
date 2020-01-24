@@ -1,0 +1,18 @@
+
+---
+
+class: center, middle, remark-inverse
+
+# 1. Introducción 
+
+---
+class: middle, center
+
+# El caso Dropbox
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IurCQlHOpyw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+[Fuente: Wired](https://www.youtube.com/watch?v=1FXUf12eMrM)                       
+                       
+
+

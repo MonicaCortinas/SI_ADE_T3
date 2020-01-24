@@ -1,0 +1,63 @@
+
+
+class: center, middle, remark-inverse
+
+# 3. Componentes en la decisión en infraestructura
+
+
+---
+# Componentes
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+
+knitr::include_graphics("images/componentes.png")
+```
+
+---
+# Plataformas de hardware
+
+## Necesario definir qué clientes se van a utilizar: 
+- PCs escritorio, servidores, mainframes, dispositivos móviles, PDAs, portátiles, tablets… 
+
+## Procesadores:
+
+- Ordenadores: Intel y AMD 
+- Móviles: más fabricantes; Apple, Samsung y Qualcomm.
+
+---
+# Plataformas de sistema operativo
+
+### - Servidores: Microsoft Windows Server, Unix o Linux. 
+### - Ordenadores: Windows, Linux o macOS 
+### - Dispositivos móviles: Android, iOS
+### - Dispositivos IoT (Internet of Things): Linux.
+
+---
+# Sistemas de red y telecomunicaciones
+
+### - "Memoria secundaria adicional": acceso a los servidores de la empresa o la conexión a Internet. 
+### - Empresas del sector de la telefonía, Cisco líder mundial.
+
+---
+# Servicios de consultoría e integración de sistema
+
+## Consultoras externas en desarrollo de nueva infraestructura 
+
+## Integración de esta infraestructura con las instalaciones previas
+
+---
+# Aplicaciones de software empresarial:
+
+## ERP (Enterprise Resource Planning): flujo de operaciones empresarial: aprovisionamiento, producción, ventas, facturación, recursos humanos… (tema 6)
+
+---
+# Sistemas de gestión y almacenamiento de datos
+
+## - Software específico: DBMS
+## - Servidores
+
+---
+# Plataformas de Internet
+
+## - Sitio web, hosting, dominio, desarrollo…
