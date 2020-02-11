@@ -39,21 +39,23 @@ class: middle, center
 ---
 # Análisis de inversiones
 
-.pull-left[
-### - La persepctiva de servicios permite analizar mejor el **valor que añaden al negocio** las inversiones en infraestructura.
 
-### - El valor que puede ofrecer la empresa a los clientes (y también a los empleados y proveedores), es una función de las **capacidades en infraestructura IT**.
 
-### - Ejemplo **Dropbox**: Flexibilidad y control  vs Inversión.
+.left-column[
 
-]
-
-.pull-right[
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="90%"}
+```{r echo=FALSE, message=FALSE, warning=FALSE, out.width="80%"}
 
 knitr::include_graphics("images/dropboxamazon.jpg")
 ```
+]
+
+.right-column[
+### - Perspectiva de servicios: Análisis **valor que añaden al negocio** inversiones en infraestructura.
+
+### - Valor que puede ofrecer la empresa a los clientes (y también a los empleados y proveedores) función de las **capacidades en infraestructura IT**
+
+### - Ejemplo **Dropbox**: Flexibilidad y control  vs Inversión.
+
 ]
 
 ---
