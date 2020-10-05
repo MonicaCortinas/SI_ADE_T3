@@ -4,6 +4,7 @@
     <title>Tema 3: Infraestructura en Sistemas de Información</title>
     <meta charset="utf-8" />
     <meta name="author" content="Mónica Cortiñas" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -19,7 +20,7 @@ class: center, middle, inverse, title-slide
 ## ADE. 172821. Sistemas de Información
 ### Mónica Cortiñas
 ### Universidad Pública de Navarra
-### Curso 2019-2020 (actualizada: 11/02/2020)
+### Curso 2020-2021 (actualizada: 05/10/2020)
 
 ---
 
@@ -36,6 +37,18 @@ layout: true
 
 
 ---
+class: middle
+
+## Objetivos de aprendizaje
+
+
+1. Entender la interdependencia entre las decisiones de infraestructura y las decisiones estratégicas de la empresa
+1. Distinguir entre recursos y servicios de infraestructura y reconocer los elementos básicos de un dispositivo IT
+1. Poder citar las distintas etapas en la evolución de la tecnología IT en las empresas y cómo conviven hoy en día estos elementos
+1. Distinguir las distintas áreas de decisión en infraestructura IT
+1. Conocer las tendencia en infraestructura y cómo pueden afectar a las empresas en el futuro 
+
+---
 class: center, middle, remark-inverse 
 
 # Estructura
@@ -50,18 +63,7 @@ class: middle
 ### 3.3 Componentes en la decisión de infraestructura
 ### 3.4 Tendencias en infraestructura de hardware
 
----
-class: middle
-
-## Objetivos de aprendizaje
-
-
-### 1.- Definir **qué** es la infraestructura IT y cuáles son sus **componentes**.
-
-### 2.- Explicar las **etapas** y los **impulsores** de la evolución en infraestructura IT.
-
-### 3.- Conocer las **tendencias** actuales en hardware y sotfware para IT.
-
+https://www.mindomo.com/mindmap/900a5b8534a243a2a6867bac5ca9881e
 
 
   
@@ -404,11 +406,20 @@ class: center, middle, remark-inverse
 
 # 4. Tendencias de Plataformas de Hardware y Software
 
+---
+
+# 1. Teletrabajo y teledocencia
+
+## Desde el año 2020, la forma de trabajar se ha transformado:
+
+- Diez años de avances tecnológicos en dos meses https://www.uppers.es/economia-y-dinero/vida-laboral/coronavirus-maquina-tiempo-avances-tecnologicos-teletrabajo_18_2942895153.html
+
+- Trabajo híbrido: ¿lo peor de dos mundos?: relaciones, oportunidades de promoción: https://www.wired.com/story/hybrid-remote-work-offers-the-worst-of-both-worlds/
 
 ---
 
 
-# 1. Plataformas móviles
+# 2. Plataformas móviles
 
 ### - Móviles como alternativa viable a los ordenadores
 
@@ -419,7 +430,8 @@ class: center, middle, remark-inverse
 &lt;img src="images/movil.jpg" width="40%" /&gt;
 ]
 ---
-# 2. Consumerización de la IT
+
+# 3. Consumerización de la IT
 
 ### - "Bring your own device"
 
@@ -431,7 +443,7 @@ class: center, middle, remark-inverse
 
 
 ---
-# 3. Computación en la nube
+# 4. Computación en la nube
 
 .pull-left[
 ### - Utilizar de forma coordinada recursos heterogéneos y físicamente distantes, basándose en Internet y centralizada en un proveedor. 
@@ -465,10 +477,29 @@ class: center, middle, remark-inverse
 ]
 ---
 class: center, middle
-# 4. Otras tendencias
+
+# 5. Otras tendencias
 
 ### Nanotecnología, computación cuántica, computación “green”, inteligencia artificial 
 
+---
+class: middle
+
+&lt;a href="https://b.socrative.com/teacher/" target="_blank"&gt;
+  &lt;button class="btn btn-final"&gt;
+    &lt;span class="buttoninner"&gt;&lt;i class="fas fa-question-circle"&gt;&lt;/i&gt; Test en Socrative&lt;/a&gt; &lt;/span&gt;
+  &lt;/button&gt;
+&lt;/a&gt;
+
+
+# Secciones
+
+### 3.1 Introducción
+### 3.2 Qué es la infraestructura de tecnología de información
+### 3.3 Componentes en la decisión de infraestructura
+### 3.4 Tendencias en infraestructura de hardware
+
+https://www.mindomo.com/mindmap/900a5b8534a243a2a6867bac5ca9881e
 
 
 ---
@@ -484,11 +515,14 @@ background-position: 90% 5%
 
 # Final del tema
 
-&lt;a href="https://b.socrative.com/teacher/" target="_blank"&gt;
-  &lt;button class="btn btn-final"&gt;
-    &lt;span class="buttoninner"&gt;&lt;i class="fas fa-question-circle"&gt;&lt;/i&gt; Test en Socrative&lt;/a&gt; &lt;/span&gt;
-  &lt;/button&gt;
-&lt;/a&gt;
+
+
+
+
+
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -536,6 +570,32 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
 // adds .remark-code-has-line-highlighted class to <pre> parent elements
 // of code chunks containing highlighted lines with class .remark-code-line-highlighted
 (function(d) {
@@ -553,17 +613,6 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   }
   preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
 })(document);</script>
-
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
-</script>
 
 <script>
 slideshow._releaseMath = function(el) {

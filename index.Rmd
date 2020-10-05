@@ -3,7 +3,7 @@ title: "Tema 3: Infraestructura en Sistemas de Información"
 subtitle: "ADE. 172821. Sistemas de Información"
 author: "Mónica Cortiñas"
 institute: "Universidad Pública de Navarra"
-date: "Curso 2019-2020 (actualizada: `r format(Sys.time(), '%d/%m/%Y')`)"
+date: "Curso 2020-2021 (actualizada: `r format(Sys.time(), '%d/%m/%Y')`)"
 output:
   xaringan::moon_reader:
     css: [default, styles/general.css, styles/xaringan.css, css/specific.css]
@@ -33,6 +33,18 @@ layout: true
 
 
 ---
+class: middle
+
+## Objetivos de aprendizaje
+
+
+1. Entender la interdependencia entre las decisiones de infraestructura y las decisiones estratégicas de la empresa
+1. Distinguir entre recursos y servicios de infraestructura y reconocer los elementos básicos de un dispositivo IT
+1. Poder citar las distintas etapas en la evolución de la tecnología IT en las empresas y cómo conviven hoy en día estos elementos
+1. Distinguir las distintas áreas de decisión en infraestructura IT
+1. Conocer las tendencia en infraestructura y cómo pueden afectar a las empresas en el futuro 
+
+---
 class: center, middle, remark-inverse 
 
 # Estructura
@@ -47,18 +59,7 @@ class: middle
 ### 3.3 Componentes en la decisión de infraestructura
 ### 3.4 Tendencias en infraestructura de hardware
 
----
-class: middle
-
-## Objetivos de aprendizaje
-
-
-### 1.- Definir **qué** es la infraestructura IT y cuáles son sus **componentes**.
-
-### 2.- Explicar las **etapas** y los **impulsores** de la evolución en infraestructura IT.
-
-### 3.- Conocer las **tendencias** actuales en hardware y sotfware para IT.
-
+https://www.mindomo.com/mindmap/900a5b8534a243a2a6867bac5ca9881e
 
 ```{r child='1_intro.Rmd'}
 ```
